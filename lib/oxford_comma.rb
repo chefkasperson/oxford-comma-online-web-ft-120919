@@ -12,6 +12,7 @@ def oxford_comma(array)
   #   a
   # end
   case array
+    length = array.length
   when length == 1
     array.join
   end
