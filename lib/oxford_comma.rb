@@ -1,9 +1,8 @@
 def oxford_comma(array)
-  case array
-  when array.length == 1
-    return array.join
-  when array .length == 2
-    return array.join(" and")
+  length = array.length
+  case length
+  when length == 1
+    array.join
   end
-
+    
 end
